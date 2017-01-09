@@ -1,0 +1,519 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+td, th {
+	border-style:solid;
+	border-width:1px;
+}
+table {
+	border-collapse:collapse;
+}
+li {
+	display:block;
+}
+body {
+	font-size:12px;
+	-epub-hyphens:auto;
+}
+p.Basic-Paragraph {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.First-Line-Style {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"Helvetica Neue", sans-serif;
+	font-size:59px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.Do-and-Don-t {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"Helvetica Neue", sans-serif;
+	font-size:75px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.347;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.simple-instructions {
+	-epub-hyphens:none;
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"Helvetica Neue", sans-serif;
+	font-size:25px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.more-information {
+	-epub-hyphens:none;
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"Helvetica Neue", sans-serif;
+	font-size:20px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.Body-text {
+	-epub-hyphens:none;
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"Helvetica Neue", sans-serif;
+	font-size:48px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.Home-Office-Header {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"Helvetica Neue", sans-serif;
+	font-size:61px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.other-first-line {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"Helvetica Neue", sans-serif;
+	font-size:69px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.para-style-override-1 {
+	-epub-hyphens:none;
+	text-align:right;
+}
+p.para-style-override-2 {
+	font-family:"Helvetica Neue", sans-serif;
+	font-size:75px;
+	font-style:normal;
+	font-weight:bold;
+}
+p.para-style-override-3 {
+	font-size:90px;
+}
+p.para-style-override-4 {
+	-epub-hyphens:none;
+	font-size:72px;
+}
+p.para-style-override-5 {
+	font-size:74px;
+}
+p.para-style-override-6 {
+	-epub-hyphens:none;
+	font-size:48px;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-7 {
+	font-size:158px;
+}
+span.char-style-override-1 {
+	font-size:90px;
+}
+span.char-style-override-2 {
+	font-family:"Helvetica Neue", sans-serif;
+	font-size:20px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-3 {
+	color:#2480b9;
+}
+img.frame-1 {
+	height:1565px;
+	width:1118px;
+}
+div.frame-2 {
+	margin:0px auto 0px auto;
+	text-align:center;
+}
+img.frame-3 {
+	height:221px;
+	width:1118px;
+}
+img.frame-4 {
+	height:41px;
+	width:96px;
+}
+img.frame-5 {
+	height:225px;
+	width:216px;
+}
+img.frame-6 {
+	height:5px;
+	width:1010px;
+}
+img.frame-7 {
+	height:132px;
+	width:146px;
+}
+img.frame-8 {
+	height:125px;
+	width:276px;
+}
+img.frame-9 {
+	height:87px;
+	width:140px;
+}
+img.frame-10 {
+	height:117px;
+	width:266px;
+}
+img.frame-11 {
+	height:137px;
+	width:112px;
+}
+img.frame-12 {
+	height:23px;
+	width:132px;
+}
+img.frame-13 {
+	height:111px;
+	width:497px;
+}
+img.frame-14 {
+	height:1118px;
+	width:5px;
+}
+img.frame-15 {
+	height:132px;
+	width:152px;
+}
+img.frame-16 {
+	height:179px;
+	width:186px;
+}
+img.frame-17 {
+	height:83px;
+	width:221px;
+}
+img.frame-18 {
+	height:1572px;
+	width:1118px;
+}
+img.frame-19 {
+	height:180px;
+	width:207px;
+}
+img.frame-20 {
+	height:5px;
+	width:982px;
+}
+img.frame-21 {
+	height:66px;
+	width:206px;
+}
+img.frame-22 {
+	height:161px;
+	width:186px;
+}
+img.frame-23 {
+	height:146px;
+	width:226px;
+}
+img.frame-24 {
+	height:91px;
+	width:152px;
+}
+img.frame-25 {
+	height:31px;
+	width:184px;
+}
+img.frame-26 {
+	height:1108px;
+	width:5px;
+}
+img.frame-27 {
+	height:123px;
+	width:123px;
+}
+img.frame-28 {
+	height:91px;
+	width:240px;
+}
+img.frame-29 {
+	height:148px;
+	width:150px;
+}
+img.frame-30 {
+	height:31px;
+	width:168px;
+}
+img.frame-31 {
+	height:1572px;
+	width:1117px;
+}
+img.frame-32 {
+	height:201px;
+	width:237px;
+}
+img.frame-33 {
+	height:5px;
+	width:994px;
+}
+img.frame-34 {
+	height:150px;
+	width:150px;
+}
+img.frame-35 {
+	height:133px;
+	width:113px;
+}
+img.frame-36 {
+	height:69px;
+	width:170px;
+}
+img.frame-37 {
+	height:171px;
+	width:221px;
+}
+img.frame-38 {
+	height:95px;
+	width:219px;
+}
+img.frame-39 {
+	height:1119px;
+	width:5px;
+}
+img.frame-40 {
+	height:160px;
+	width:160px;
+}
+img.frame-41 {
+	height:149px;
+	width:149px;
+}
+img.frame-42 {
+	height:58px;
+	width:217px;
+}
+img.frame-43 {
+	height:170px;
+	width:219px;
+}
+img.frame-44 {
+	height:43px;
+	width:241px;
+}
+img.frame-45 {
+	height:1572px;
+	width:1119px;
+}
+img.frame-46 {
+	height:259px;
+	width:286px;
+}
+img.frame-47 {
+	height:133px;
+	width:138px;
+}
+img.frame-48 {
+	height:104px;
+	width:138px;
+}
+img.frame-49 {
+	height:109px;
+	width:128px;
+}
+img.frame-50 {
+	height:143px;
+	width:139px;
+}
+img.frame-51 {
+	height:150px;
+	width:173px;
+}
+img.frame-52 {
+	height:5px;
+	width:991px;
+}
+img.frame-53 {
+	height:184px;
+	width:131px;
+}
+img.frame-54 {
+	height:110px;
+	width:172px;
+}
+img.frame-55 {
+	height:82px;
+	width:220px;
+}
+img.frame-56 {
+	height:88px;
+	width:192px;
+}
+img.frame-57 {
+	height:148px;
+	width:175px;
+}
+img.frame-58 {
+	height:269px;
+	width:230px;
+}
+img.frame-59 {
+	height:5px;
+	width:990px;
+}
+img.frame-60 {
+	height:150px;
+	width:187px;
+}
+img.frame-61 {
+	height:150px;
+	width:149px;
+}
+img.frame-62 {
+	height:106px;
+	width:183px;
+}
+img.frame-63 {
+	height:137px;
+	width:207px;
+}
+img.frame-64 {
+	height:132px;
+	width:193px;
+}
+img.frame-65 {
+	height:130px;
+	width:208px;
+}
+img.frame-66 {
+	height:84px;
+	width:86px;
+}
+img.frame-67 {
+	height:121px;
+	width:162px;
+}
+img.frame-68 {
+	height:182px;
+	width:246px;
+}
+img.frame-69 {
+	height:117px;
+	width:261px;
+}
+img.frame-70 {
+	height:207px;
+	width:212px;
+}
+img.frame-71 {
+	height:5px;
+	width:988px;
+}
+img.frame-72 {
+	height:141px;
+	width:164px;
+}
+img.frame-73 {
+	height:138px;
+	width:113px;
+}
+img.frame-74 {
+	height:144px;
+	width:140px;
+}
+img.frame-75 {
+	height:107px;
+	width:99px;
+}
+img.frame-76 {
+	height:1117px;
+	width:5px;
+}
+img.frame-77 {
+	height:82px;
+	width:221px;
+}
+img.frame-78 {
+	height:173px;
+	width:182px;
+}
+img.frame-79 {
+	height:113px;
+	width:131px;
+}
+img.frame-80 {
+	height:138px;
+	width:159px;
+}
+img.frame-81 {
+	height:1523px;
+	width:1118px;
+}
+img.frame-82 {
+	height:296px;
+	width:296px;
+}
