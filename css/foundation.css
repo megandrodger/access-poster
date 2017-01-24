@@ -24,13 +24,70 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 3 */ }
 
+/* Added CSS */
+
+#autisticbg {
+  background-color: #EDE2D0;
+}
+
+.accIntro{
+  font-size: 1rem;
+  margin-bottom: 0rem;
+}
+
+.accTitle{
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+/*.tip {
+  display: inline-block;
+  max-width: 40%;
+}
+
+img.tip {
+  max-width: 40%;
+}
+*/
+
+p.tip {
+  padding-left: 4rem;
+  font-size: 1rem;
+}
+
+@media print, screen and (min-width: 40em) {
+  .accIntro{
+    font-size: 1.8rem;
+    }
+
+  .accTitle{
+    font-size: 3rem;
+  }
+
+  p.tip {
+    font-size: 1.3rem;
+  }
+}
+
+
+div.contrast {
+  background-color: #F6F0E7;
+  /*margin: 0;
+  min-height: 150px;
+  max-height: 200px;*/
+}
+
+div.row {
+  margin:0;
+}
 /* Sections
        ========================================================================== */
 /**
      * Remove the margin in all browsers (opinionated).
      */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /**
      * Add the correct display in IE 9-.
@@ -438,7 +495,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -552,20 +609,23 @@ h6 {
 h1 {
   font-size: 1.5rem;
   line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem; }
 
 h2 {
   font-size: 1.25rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  margin-left: 4rem; }
 
 h3 {
-  font-size: 1.1875rem;
+  font-size: 1.18rem;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  margin-left: 4rem; }
 
 h4 {
   font-size: 1.125rem;
@@ -589,7 +649,7 @@ h6 {
   h1 {
     font-size: 3rem; }
   h2 {
-    font-size: 2.5rem; }
+    font-size: 2.2rem; }
   h3 {
     font-size: 1.9375rem; }
   h4 {
@@ -3142,7 +3202,7 @@ a.thumbnail {
     bottom: 0; }
 
 .row {
-  max-width: 62.5rem;
+  /*max-width: 62.5rem;*/
   margin-right: auto;
   margin-left: auto; }
   .row::before, .row::after {
@@ -3154,16 +3214,16 @@ a.thumbnail {
     padding-right: 0;
     padding-left: 0; }
   .row .row {
-    margin-right: -0.9375rem;
-    margin-left: -0.9375rem; }
+    margin-right: 0rem;
+    margin-left: 0rem; }
     @media print, screen and (min-width: 40em) {
       .row .row {
-        margin-right: -0.9375rem;
-        margin-left: -0.9375rem; } }
+        margin-right: 0rem;
+        margin-left: 0rem; } }
     @media print, screen and (min-width: 64em) {
       .row .row {
-        margin-right: -0.9375rem;
-        margin-left: -0.9375rem; } }
+        margin-right: 0rem;
+        margin-left: 0rem; } }
     .row .row.collapse {
       margin-right: 0;
       margin-left: 0; }
@@ -3176,8 +3236,8 @@ a.thumbnail {
 .column, .columns {
   width: 100%;
   float: left;
-  padding-right: 0.9375rem;
-  padding-left: 0.9375rem; }
+  padding-right: 0;/*0.9375rem;*/
+  padding-left: 0; } /*0.9375rem; }*/
   .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
     float: right; }
   .column.end:last-child:last-child, .end.columns:last-child:last-child {
