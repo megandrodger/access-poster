@@ -53,22 +53,37 @@ img.tip {
 p.tip {
   padding-left: 4rem;
   font-size: 1rem;
+  vertical-align:center;
 }
+
+.row {
+  height: 10rem;
+   }
 
 @media print, screen and (min-width: 40em) {
   .accIntro{
     font-size: 1.8rem;
+    text-align: center;
     }
 
   .accTitle{
     font-size: 3rem;
+    text-align: center;
+  }
+
+  .doDontHeader{
+    text-align: center;
   }
 
   p.tip {
     font-size: 1.3rem;
   }
-}
 
+  /*#wholeGrid {
+    max-width: 90%;
+  }*/
+
+}
 
 div.contrast {
   background-color: #F6F0E7;
@@ -77,9 +92,8 @@ div.contrast {
   max-height: 200px;*/
 }
 
-div.row {
-  margin:0;
-}
+
+
 /* Sections
        ========================================================================== */
 /**
@@ -2632,7 +2646,7 @@ select {
 .callout {
   position: relative;
   margin: 0 0 1rem 0;
-  padding: 1rem;
+  padding: 0rem;
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 3px;
   background-color: white;
@@ -3202,9 +3216,10 @@ a.thumbnail {
     bottom: 0; }
 
 .row {
-  /*max-width: 62.5rem;*/
+  /*max-width: 80rem;*/
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+   }
   .row::before, .row::after {
     display: table;
     content: ' '; }
