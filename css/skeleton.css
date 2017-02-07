@@ -45,6 +45,10 @@
   box-sizing: border-box; }
 .instruction {
   background-color: #F0F2E8;
+  text-align: center; }
+.box {
+  background-color: #F0F2E8;
+  padding: 30px;
   text-align: center;
 }
 
