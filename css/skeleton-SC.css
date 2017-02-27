@@ -28,29 +28,24 @@
 /* SC added code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#autisticbg {
-  background-color: #EDE2D0;
-}
+/* poster colours -------------------------------*/
 
-/* for smallest devices */
-.titleText {
-  text-align: left;
-  font-size: 2.5rem;
-  line-height: 1.3;
-  letter-spacing: -.1rem;
-  font-weight: 100;
-  margin: 0 2rem 0 2rem;
-}
+/*main*/
+.mainColour {background-color: #EDE2D0;}
+
+/*highlight*/
+.accentColour {background-color: #F6F0E7;}
+
+/*borders*/
+.borderColour {border-color: #F47738;}
+
+/* for smallest devices ------------------------*/
 
 .doDontHeader{
-  background-color: #F6F0E7;
-  font-size: 2.8rem;
-  line-height: 1.35;
-  letter-spacing: -.08rem;
   text-align: center;
   border-style: solid;
-  border-width: 0 0 3px 0;
-  border-color: #F47738;
+  border-width: 2px 0 2px 0;
+  padding: 1rem;
 }
 
 img {
@@ -61,33 +56,38 @@ img {
   /* Individual guidance box */
 
 .flexParent {
-  height: 300px;
-  margin: 40px 10px 40px 10px;
-  background-color: #F6F0E7;
+  height: 190px;
+  margin: 10px 10px 10px 10px;
   display: flex;
   flex-flow: column;
 }
 .flexChild {
   margin: auto;
-  padding: 20px;
 }
 img.flexChild {
   max-width: 20rem;
+  max-height: 8rem;
+  padding: 1.1rem 0 0 0;
 }
 
-  /* Poster header */
+  /* Poster title */
 
-.headerFlexParent {
+.titleFlexParent {
   display: flex;
   flex-flow: row;
 }
-
-.headerFlexChild {
-  margin: auto;
-}
-  img.headerFlexChild{
+  .titleFlexChild {
+    margin: 1.5rem 2rem 0 2rem;
+    flex: 0 60%;
+  }
+  h1.titleFlexChild {
+    flex: 0 100%;
+  }
+  img.titleFlexChild{
     max-width: 10rem;
-    max-height: 10rem;
+    max-height: 7.6rem;
+    margin: 1.8rem;
+    flex:0;
   }
 
 /* Grid
@@ -96,7 +96,7 @@ img.flexChild {
 .container {
   position: relative;
   width: 100%;
-  max-width: 1020px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 0 0;
   box-sizing: border-box; }
@@ -200,10 +200,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   /* margin-top: 0;
   margin-bottom: 2rem; SC commented out */
-  margin: 0 2rem 1rem 2rem;
+  margin: 0 0 0 0;
   font-weight: 500; }
-h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h2 { font-size: 2.6rem; line-height: 1.25; letter-spacing: -.1rem; } /* SC edited */
+h1 { font-size: 2.0rem; line-height: 1.3;  letter-spacing: -.1rem;}
+h2 { font-size: 2.8rem; line-height: 1.35; letter-spacing: -.1rem; } /* SC edited */
 h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
 h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
