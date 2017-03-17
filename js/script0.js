@@ -40,7 +40,7 @@ if ( $(window).width() < 400 ) {
     }
   }
 
-  var newStickies = new stickyTitles($(".doHeader"));
+  var newStickies = new stickyTitles($(".doDontHeader"));
 
   newStickies.load();
 

@@ -42,10 +42,8 @@
 
 /* for smallest devices -------------------------------------*/
 
-.placeholder {
-  height: 50px;
-}
-.doHeader{
+
+.doDontHeader{
   text-align: center;
   border-style: solid;
   border-width: 2px 0 2px 0;
@@ -60,7 +58,7 @@
   -o-transition-property: background-color;
   -o-transition-duration: 0.2s;
 }
-.doHeader.fixed {
+.doDontHeader.fixed {
      background-color: #F38348;
      color: #FFFFFF;
      top: 0;
@@ -76,7 +74,7 @@
      -o-transition-property: background-color;
      -o-transition-duration: 0.2s;
   }
-.doHeader.fixed.absolute {
+.doDontHeader.fixed.absolute {
     position: absolute;
 }
 
