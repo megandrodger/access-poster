@@ -1,4 +1,4 @@
-
+//Sticky headers on mobile ------------------------------------------
 
 $(document).ready(function(){
 
