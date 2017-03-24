@@ -44,13 +44,36 @@
   box-sizing: border-box; }
 .instruction {
   background-color: #F0F2E8;
-  text-align: center; }
+  text-align: center;
+  border-style: solid;
+  border-width: 0 0 10px 0;
+  border-color: #85994B;
+  padding-top: 10px;
+  width: 100%;
+}
+.title img {
+  max-height: 20rem;
+}
+/* istructions for the boxes and images in the boxes  */
+
 .box {
   background-color: #F0F2E8;
   padding: 30px;
   text-align: center;
   margin: 20px;
+  padding: 15px;
+  height: 270px;
 }
+
+.box img {
+  max-height: 13rem;
+  margin: 15px;
+}
+
+.box h3 {margin: 10px; text-align: center;}
+.box a {color: #7F5F4C; text-align: center; text-decoration: none;
+cursor:pointer;}
+
 .whole {
   background-color: #E1E6D2;
   margin-left: 10px;
@@ -59,14 +82,31 @@
   margin-right: 10px;
 }
 .title {
-  padding-top: 20px;
+  padding-top: 40px;
   margin-bottom: 20px;
 
 }
+.back {
+  background-color: #B2BE8D;
+  max-width: 100%;
+}
 
-.bar {
-  background-color: #85994B;
-  padding: 10px;
+.back a {
+  padding-left: 20px;
+  font-size: 2.2rem;
+  color: 000000;
+}
+
+.back img {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.licence img {
+  max-height: 50px;
+  max-width: 200px;
+  padding-top: 20px;
+  padding-left: 50px;
 }
 
 /* For devices larger than 400px */
@@ -154,10 +194,10 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
-img {
-  max-width: 250px;
-  margin-bottom: 30px;
-}
+
+img {max-width: 250px;
+  }
+
 
 
 /* Typography
@@ -165,11 +205,10 @@ img {
 
 h1 { font-size: 5.0rem; line-height: 1.15;  letter-spacing: -.1rem;  margin-top: 0;  margin-bottom: 2rem;  font-weight: 300; }
 h2 { font-size: 4.2rem; line-height: 1.25; letter-spacing: -.1rem; margin-top: 0;  margin-bottom: 2rem; font-weight: 600; }
-h3 { font-size: 2.6rem; line-height: 1.2;  letter-spacing: -.1rem; margin-top: 0;  margin-bottom: 2rem;  font-weight: 300;}
+h3 { font-size: 2.4rem; line-height: 1.2;  letter-spacing: -.1rem; margin-top: 0;  margin-bottom: 2rem;  font-weight: 300;}
 h4 { font-size: 3.0rem; line-height: 1.35; letter-spacing: -.08rem;  margin-top: 0;  margin-bottom: 2rem;  font-weight: 300;}
 h5 { font-size: 2.4rem; line-height: 1.5;  letter-spacing: -.05rem;  margin-top: 0;  margin-bottom: 2rem;  font-weight: 300;}
-h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; margin-top: 0;  margin-bottom: 2rem;  font-weight: 300; }
-
+h6 { font-size: 1.0rem; line-height: 1.6;  letter-spacing: 0; margin-top: 0;  margin-bottom: 2rem;  font-weight: 300; }
 /* Larger than phablet */
 /*@media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
