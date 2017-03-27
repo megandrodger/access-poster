@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="304px" height="114px" viewBox="0 0 304 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>dyslexia/justifiedText</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Site-assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="144" font-family="FontAwesome" font-weight="normal">
+        <g id="Dyslexia" transform="translate(-1186.000000, -816.000000)" fill="#F47738">
+            <g id="dyslexia/justifiedText" transform="translate(1186.000000, 807.000000)">
+                <text id="">
+                    <tspan x="0" y="123"></tspan>
+                </text>
+                <text id="">
+                    <tspan x="160" y="123"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
