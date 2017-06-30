@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Designing for accessibility</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600'
+  rel='stylesheet' type='text/css'>-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/lowVision.css">
+  <!--<link rel="stylesheet" href="css/skeleton-SC.css">
+  <link rel="stylesheet" href="css/custom.css">-->
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script0.js"></script>
+<script type="text/javascript" src="js/script1.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+
+</head>
+
+  <body class="mainColour">
+
+  <div class="container">
+
+    <!--<div class="row">
+        <div class="12 columns">
+          <ul class="breadcrumb">
+            <li><a href="index.html">Designing for Accessibility</a></li>
+            <li><a href="autismSpectrum.html">Autistic Spectrum</a></li>
+          </ul>
+        </div>
+    </div>-->
+
+    <nav class="row">
+        <div class="12 columns">
+          <a class="homeLink" href="index.html">Designing for accessibility</a>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="12 columns titleFlexParent">
+          <h1 class="titleFlexChild">Designing for users with
+            <br>
+            <b>low vision</b></h1>
+          <img class="titleFlexChild" src="image/lowVision/titleImage.svg">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="six columns">
+
+            <!--<div class="placeholder">-->
+            <div class="secondaryColour borderColour doDontHeader">
+              <h2><b>Do...</b></h2>
+            </div>
+            <!--</div>-->
+
+            <div class="secondaryColour guidanceBox">
+              <img src="image/lowVision/goodContrast.svg"
+              alt="Text with high contrast to its background">
+                <!--<a href="#">more info</a>-->
+                <p>use good colour contrasts and a readable font size</p>
+              <a href="#simpleColoursModal" id="simpleColoursModalLink"
+              class="moreInfoLinkColour">more information</a>
+            </div>
+
+            <div id="simpleColoursModal" class="modal">
+              <div class="secondaryColour modal-content">
+                <!--<div class="mainColour modal-header">-->
+
+                <!--</div>-->
+                <div class="modal-body">
+                  <a href="#close" title"close" class="back">< back</a>
+                  <img src="image/lowVision/simpleColours.svg"
+                  alt="Simplified colour palette">
+                  <h2><strong>Do use simple colours</strong></h2>
+                    <p>People on the autistic spectrum may experience
+                    over-sensitivity to colours. It's advisable to use
+                    muted colours with lower saturation and hues derived
+                    from nature e.g. off-whites, mauves, olive greens,
+                    blue-greys and burnt oranges.</p>
+
+                  <!--<h3>Further resources:</h3>
+                    <a>WebAim guidance</a>-->
+
+                  <a href="#close" title"close" class="close">close</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="secondaryColour guidanceBox">
+                <img src="image/lowVision/htmlWebPage.svg"
+                alt="HTML webpage icon.">
+                <p>publish all information on webpages</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img src="image/lowVision/startButton.svg"
+                alt="Example of a clearly labelled Start button.">
+                <p class="tip">use a combination of colour, shapes and text</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img src="image/lowVision/logicalLayout.svg"
+                alt="Tablet with a linear, logical layout">
+                <p class="tip flexChild">follow a linear, logical layout</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img src="image/lowVision/buttonInContext.svg"
+                alt="Submit button next to a text input field">
+                <p class="tip flexChild">put buttons and notifications in context</p>
+            </div>
+
+        </div>
+
+        <div class="six columns">
+
+            <div class="negativeColour borderColour doDontHeader">
+                <h2><b>Don't...</b></h2>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild"
+                src="image/lowVision/lowContrast.svg"
+                alt="Text with low contrast to its background.">
+                <p class="tip flexChild">use low colour contrasts and small font size</p>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild" src="image/lowVision/downloads.svg"
+                alt="Download icon">
+                <p class="tip flexChild">bury information in downloads</p>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild" src="image/lowVision/colourConveyingMeaning.svg"
+                alt="Red, yellow and green circles without explanation.">
+                <p class="tip flexChild">only use colour to convey meaning</p>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild" src="image/lowVision/overflowingContent.svg"
+                alt="Content overflowing beyond the width of a tablet.">
+                <p class="tip flexChild">spread content all over a page</p>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild" src="image/lowVision/buttonSeparatedFromContext.svg"
+                alt="Submit button separated from text input field">
+                <p class="tip flexChild">separate actions from their context</p>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <!--<script>
+
+        //Modal--------------------------------------------------
+
+        // Get the modal
+        var modal = document.getElementById('simpleColoursModal');
+        // Get the button that opens the modal
+        var a = document.getElementById("simpleColoursModalLink");
+        // Get the "back" element that closes the modal
+        var back = document.getElementsByClassName("back")[0];
+        // Get the "close" element that closes the modal
+        var close = document.getElementsByClassName("close")[0];
+        // When the user clicks on the button, open the modal
+        a.onclick = function() {
+            modal.style.display = "block";
+        }
+        // When the user clicks on back or close, close the modal
+        back.onclick = function() {
+           modal.style.display = "none";
+        }
+        close.onclick = function() {
+           modal.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+        }
+        }
+
+    </script>-->
+
+    <!--type="text/javascript"
+
+    <script>
+        $("#modal").click( function() {
+            if (!$("#modal>div").is(":hover")) document.location.href='#';
+        });
+    </script>-->
+
+  </body>
+</html>
