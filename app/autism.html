@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Designing for accessibility</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600'
+  rel='stylesheet' type='text/css'>-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/autism.css">
+  <!--<link rel="stylesheet" href="css/skeleton-SC.css">
+  <link rel="stylesheet" href="css/custom.css">-->
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!--<script type="text/javascript" src="js/modalKeypress.js"></script>-->
+  <!--<script type="text/javascript" src="js/script0.js"></script>-->
+  <!--<script type="text/javascript" src="js/script1.js"></script>-->
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+
+</head>
+
+  <body class="mainColour">
+
+  <div id="nav">
+    <nav class="row">
+        <div class="12 columns">
+          <a href="index.html"><h1 class="homeLink">Designing for accessibility</h1></a>
+        </div>
+    </nav>
+  </div>
+
+  <div id="main" class="container">
+
+    <div class="row">
+        <div class="12 columns titleFlexParent">
+          <h2 class="titleFlexChild pageTitle">Designing for users on the
+            <br><b>autistic spectrum</b></h2>
+            <img class="titleFlexChild" src="image/autismSpectrum/292.png">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="six columns">
+
+            <!--<div class="placeholder">-->
+            <div class="secondaryColour borderColour doDontHeader">
+              <h2><b>Do...</b></h2>
+            </div>
+            <!--</div>-->
+
+            <div class="secondaryColour guidanceBox">
+              <img src="image/autismSpectrum/simpleColours.svg"
+              alt="Simplified colour palette">
+              <p>use simple colours</p>
+              <a id="simpleColoursModalLink" href="#" data-a11y-dialog-show="simpleColoursModal" class="moreInfoLink moreInfoLinkColour">more information</a>
+            </div>
+
+            <div class="secondaryColour guidanceBox">
+                <img src="image/autismSpectrum/doThis.svg"
+                alt="Example of a clear instruction: Do this.">
+                <p>write in plain English</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img src="image/autismSpectrum/bulletPoints.svg"
+                alt="Clearly structured block of text.">
+                <p class="tip">use simple sentences and bullets</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img src="image/autismSpectrum/attachFiles.svg"
+                alt="Image of a button labelled 'Attach Files'">
+                <p class="tip flexChild">make buttons descriptive</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img src="image/autismSpectrum/neatTablet.svg"
+                alt="A clearly layed out tablet screen">
+                <p class="tip flexChild">build simple and consistent layouts</p>
+            </div>
+
+        </div>
+
+        <div class="six columns">
+
+            <div class="negativeColour borderColour doDontHeader">
+                <h2><b>Don't...</b></h2>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild"
+                src="image/autismSpectrum/brightContrastingColours.svg"
+                alt="High saturation and contrast colour palette">
+                <p class="tip flexChild">use bright contrasting colours</p>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild" src="image/autismSpectrum/rainingCatsDogs.svg"
+                alt="Raining cats and dogs">
+                <p class="tip flexChild">use figures of speech and idioms</p>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild" src="image/autismSpectrum/justifiedText.svg"
+                alt="Justified block of text">
+                <p class="tip flexChild">create a wall of text</p>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild" src="image/autismSpectrum/clickHere.svg"
+                alt="Image of a vague 'Click Here' button">
+                <p class="tip flexChild">make buttons vague and unpredictable</p>
+            </div>
+
+            <div class="negativeColour guidanceBox" >
+                <img class="tip flexChild" src="image/autismSpectrum/messyTablet.svg"
+                alt="A tablet screen with a cluttered layout">
+                <p class="tip flexChild">build complex and cluttered layouts</p>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+  <!-- Simple Colours Modal----------------------------------------------------------->
+
+  <div class="dialog" id="simpleColoursModal" aria-hidden="true">
+
+    <div class="modal" data-a11y-dialog-hide></div>
+
+      <div role="dialog" class="secondaryColour modal-body" aria-labelledby="simpleColoursTitle" aria-describedby="simpleColoursDetail">
+
+        <a href="#" type="button" class="back" data-a11y-dialog-hide aria-label="Back" tabindex="-1">< back</a>
+
+        <img src="image/autismSpectrum/simpleColours.svg" alt="Simplified colour palette">
+        <h2 id=simpleColoursTitle ><strong>Do use simple colours</strong></h2>
+        <p id=simpleColoursDetail>People on the autistic spectrum may experience over-sensitivity to colours. It's advisable to usemuted colours with lower saturation and hues derived from nature e.g. off-whites, mauves, olive greens, blue-greys and burnt oranges.</p>
+
+        <a href="#" type="button" class="close" data-a11y-dialog-hide aria-label="Close">Close</a>
+
+      </div>
+  </div>
+
+  <!-- Simple Colours Modal end------------------------------------------------->
+
+    <script type="text/javascript" src="js/modal.js"></script>
+
+    <script>
+    (function () {
+      document.addEventListener('DOMContentLoaded', function () {
+        var dialogEl = document.getElementById('simpleColoursModal');
+        var mainEl = document.getElementById('main');
+        var dialog = new window.A11yDialog(dialogEl, mainEl);
+        dialog.on('show', function (dialogEl, triggerEl) {
+          console.log(dialogEl);
+          console.log(triggerEl);
+        });
+        // To manually control the dialog:
+        // dialog.show()
+        // dialog.hide()
+        // dialog.destroy()
+      });
+    }());
+    </script>
+
+  </body>
+
+</html>

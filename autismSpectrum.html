@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Designing for accessibility</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600'
+  rel='stylesheet' type='text/css'>-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton-SC.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script0.js"></script>
+<script type="text/javascript" src="js/script1.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+
+</head>
+
+  <body class="mainColour">
+
+  <div class="container">
+
+    <!--<div class="row">
+        <div class="12 columns">
+          <ul class="breadcrumb">
+            <li><a href="index.html">Designing for Accessibility</a></li>
+            <li><a href="autismSpectrum.html">Autistic Spectrum</a></li>
+          </ul>
+        </div>
+    </div>-->
+
+    <div class="row">
+        <div class="12 columns">
+          <a class="homeLink" href="index.html">Designing for accessibility</a></li>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="12 columns titleFlexParent">
+          <h1 class="titleFlexChild">Designing for users on the
+            <b>autistic spectrum</b></h1>
+          <img class="titleFlexChild" src="image/292.png">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="six columns">
+
+            <!--<div class="placeholder">-->
+            <div class="accentColour borderColour doDontHeader">
+              <h2><b>Do...</b></h2>
+            </div>
+            <!--</div>-->
+
+            <div class="accentColour guidanceBox">
+                <img src="image/svg/simpleColours.svg">
+                <p>use simple colours</p>
+                <!--<a href="#">more info</a>-->
+                <a id="simpleColoursModalLink">more info</a>
+            </div>
+
+                  <div id="simpleColoursModal" class="modal">
+                    <div class="accentColour modal-content">
+                      <!--<div class="mainColour modal-header">-->
+
+                      <!--</div>-->
+                      <div class="modal-body">
+                        <a class="back">< back</a>
+                        <img src="image/svg/simpleColours.svg">
+                        <h2><strong>Do use simple colours</strong></h2>
+                          <p>People on the autistic spectrum may experience
+                          over-sensitivity to colours. It's advisable to use
+                          muted colours with lower saturation and hues derived
+                          from nature e.g. off-whites, mauves, olive greens,
+                          blue-greys and burnt oranges.</p>
+
+                        <!--<h3>Further resources:</h3>
+                          <a>WebAim guidance</a>-->
+
+                        <a class="close">close</a>
+                      </div>
+                    </div>
+                  </div>
+
+            <div class="accentColour guidanceBox">
+                <img src="image/svg/doThis.svg">
+                <p>write in plain English</p>
+            </div>
+
+            <div class="accentColour guidanceBox" >
+                <img src="image/svg/bulletPoints.svg">
+                <p class="tip">use simple sentences and bullets</p>
+            </div>
+
+            <div class="accentColour guidanceBox" >
+                <img src="image/svg/attachFiles.svg">
+                <p class="tip flexChild">make buttons descriptive</p>
+            </div>
+
+            <div class="accentColour guidanceBox" >
+                <img src="image/svg/neatTablet.svg">
+                <p class="tip flexChild">build simple and consistent layouts</p>
+            </div>
+
+        </div>
+
+        <div class="six columns">
+
+            <div class="secondaryColour borderColour doDontHeader">
+                <h2><b>Don't...</b></h2>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img class="tip flexChild" src="image/svg/brightContrastingColours.svg">
+                <p class="tip flexChild">use bright contrasting colours</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img class="tip flexChild" src="image/svg/rainingCatsDogs.svg">
+                <p class="tip flexChild">use figures of speech and idioms</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img class="tip flexChild" src="image/svg/justifiedText.svg">
+                <p class="tip flexChild">create a wall of text</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img class="tip flexChild" src="image/svg/clickHere.svg">
+                <p class="tip flexChild">make buttons vague and unpredictable</p>
+            </div>
+
+            <div class="secondaryColour guidanceBox" >
+                <img class="tip flexChild" src="image/svg/messyTablet.svg">
+                <p class="tip flexChild">build complex and cluttered layouts</p>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+
+        //Modal--------------------------------------------------
+
+        // Get the modal
+        var modal = document.getElementById('simpleColoursModal');
+
+        // Get the button that opens the modal
+        var a = document.getElementById("simpleColoursModalLink");
+
+        // Get the "back" element that closes the modal
+        var back = document.getElementsByClassName("back")[0];
+
+        // Get the "close" element that closes the modal
+        var close = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on the button, open the modal
+        a.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on back or close, close the modal
+        back.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        close.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+  </body>
+</html>

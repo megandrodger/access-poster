@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="221px" height="166px" viewBox="0 0 221 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>physicalOrMotor/bunchedInteractions</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="3" y="33" width="98" height="43"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="98" height="43" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="3" y="123" width="218" height="43"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="218" height="43" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="123" y="33" width="98" height="43"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="98" height="43" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Site-assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobility-issues" transform="translate(-1199.000000, -1082.000000)">
+            <g id="physicalOrMotor/bunchedInteractions" transform="translate(1199.000000, 1082.000000)">
+                <rect id="Rectangle-95" fill="#F47738" x="0" y="0" width="144" height="21" rx="5"></rect>
+                <use id="Rectangle-126" stroke="#979797" mask="url(#mask-2)" stroke-width="10" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <rect id="Rectangle-95" fill="#B58840" x="1" y="90" width="113" height="21" rx="5"></rect>
+                <use id="Rectangle-126" stroke="#979797" mask="url(#mask-4)" stroke-width="10" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <use id="Rectangle-126" stroke="#979797" mask="url(#mask-6)" stroke-width="10" fill="#FFFFFF" xlink:href="#path-5"></use>
+                <text id="" font-family="FontAwesome" font-size="57" font-weight="normal" fill="#0B0C0C">
+                    <tspan x="180" y="106"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

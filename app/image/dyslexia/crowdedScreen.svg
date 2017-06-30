@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="239px" height="203px" viewBox="0 0 239 203" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>dyslexia/crowdedScreen</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Site-assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dyslexia" transform="translate(-1261.000000, -1943.000000)">
+            <g id="dyslexia/crowdedScreen" transform="translate(1261.000000, 1943.000000)">
+                <rect id="Rectangle-117" fill="#FFFFFF" x="0" y="18" width="235" height="132"></rect>
+                <text id="" font-family="FontAwesome" font-size="218" font-weight="normal" fill="#333333">
+                    <tspan x="5" y="187"></tspan>
+                </text>
+                <rect id="Rectangle-70" fill="#28A197" x="152.608253" y="47.4994199" width="65.1651841" height="20.339164"></rect>
+                <rect id="Rectangle-70" fill="#B58840" x="152.608253" y="71.9064167" width="65.1651841" height="20.339164"></rect>
+                <rect id="Rectangle-70" fill="#28A197" x="152.608253" y="96.3134135" width="65.1651841" height="20.339164"></rect>
+                <rect id="Rectangle-66" fill="#F47738" x="27" y="22" width="56.6282604" height="18.8884592"></rect>
+                <rect id="Rectangle-66" fill="#F47738" x="92.6559541" y="22" width="56.6282604" height="18.8884592"></rect>
+                <rect id="Rectangle-66" fill="#F47738" x="158.311908" y="22" width="56.6282604" height="18.8884592"></rect>
+                <rect id="Rectangle-66" fill="#85994B" x="27.1032963" y="47.4994199" width="116.060728" height="12.4767717"></rect>
+                <rect id="Rectangle-66" fill="#FFBF47" x="27.1032963" y="66.387879" width="116.060728" height="12.4767717"></rect>
+                <rect id="Rectangle-66" fill="#85994B" x="27.1032963" y="85.2763382" width="116.060728" height="12.4767717"></rect>
+                <rect id="Rectangle-66" fill="#FFBF47" x="27.1032963" y="104.164797" width="116.060728" height="12.4767717"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
