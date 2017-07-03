@@ -21,14 +21,10 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/lowVision.css">
-  <!--<link rel="stylesheet" href="css/skeleton-SC.css">
-  <link rel="stylesheet" href="css/custom.css">-->
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/script0.js"></script>
-<script type="text/javascript" src="js/script1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -38,22 +34,15 @@
 
   <body class="mainColour">
 
-  <div class="container">
-
-    <!--<div class="row">
-        <div class="12 columns">
-          <ul class="breadcrumb">
-            <li><a href="index.html">Designing for Accessibility</a></li>
-            <li><a href="autismSpectrum.html">Autistic Spectrum</a></li>
-          </ul>
-        </div>
-    </div>-->
-
+  <div id="nav" class="container">
     <nav class="row">
         <div class="12 columns">
-          <a class="homeLink" href="index.html">Designing for accessibility</a>
+          <a href="index.html"><h1 class="homeLink">Designing for accessibility</h1></a>
         </div>
     </nav>
+  </div>
+
+  <div id="main" class="container">
 
     <div class="row">
         <div class="12 columns titleFlexParent">
@@ -67,44 +56,15 @@
     <div class="row">
         <div class="six columns">
 
-            <!--<div class="placeholder">-->
             <div class="secondaryColour borderColour doDontHeader">
               <h2><b>Do...</b></h2>
             </div>
-            <!--</div>-->
 
             <div class="secondaryColour guidanceBox">
               <img src="image/lowVision/goodContrast.svg"
               alt="Text with high contrast to its background">
-                <!--<a href="#">more info</a>-->
-                <p>use good colour contrasts and a readable font size</p>
-              <a href="#simpleColoursModal" id="simpleColoursModalLink"
-              class="moreInfoLinkColour">more information</a>
-            </div>
-
-            <div id="simpleColoursModal" class="modal">
-              <div class="secondaryColour modal-content">
-                <!--<div class="mainColour modal-header">-->
-
-                <!--</div>-->
-                <div class="modal-body">
-                  <a href="#close" title"close" class="back">< back</a>
-                  <img src="image/lowVision/simpleColours.svg"
-                  alt="Simplified colour palette">
-                  <h2><strong>Do use simple colours</strong></h2>
-                    <p>People on the autistic spectrum may experience
-                    over-sensitivity to colours. It's advisable to use
-                    muted colours with lower saturation and hues derived
-                    from nature e.g. off-whites, mauves, olive greens,
-                    blue-greys and burnt oranges.</p>
-
-                  <!--<h3>Further resources:</h3>
-                    <a>WebAim guidance</a>-->
-
-                  <a href="#close" title"close" class="close">close</a>
-                </div>
-              </div>
-
+              <p>use good colour contrasts and a readable font size</p>
+              <a id="simpleColoursModalLink" href="#" data-a11y-dialog-show="simpleColoursModal" class="moreInfoLink moreInfoLinkColour">more information</a>
             </div>
 
             <div class="secondaryColour guidanceBox">
@@ -174,50 +134,48 @@
     </div>
   </div>
 
+  <!-- MODALS ------------------------------------------------------------------------>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <!--<script>
+  <!-- Simple Colours Modal----------------------------------------------------------->
 
-        //Modal--------------------------------------------------
+  <div class="dialog" id="simpleColoursModal" aria-hidden="true">
 
-        // Get the modal
-        var modal = document.getElementById('simpleColoursModal');
-        // Get the button that opens the modal
-        var a = document.getElementById("simpleColoursModalLink");
-        // Get the "back" element that closes the modal
-        var back = document.getElementsByClassName("back")[0];
-        // Get the "close" element that closes the modal
-        var close = document.getElementsByClassName("close")[0];
-        // When the user clicks on the button, open the modal
-        a.onclick = function() {
-            modal.style.display = "block";
-        }
-        // When the user clicks on back or close, close the modal
-        back.onclick = function() {
-           modal.style.display = "none";
-        }
-        close.onclick = function() {
-           modal.style.display = "none";
-        }
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-        }
-        }
+    <div class="modal" data-a11y-dialog-hide></div>
 
-    </script>-->
+      <div role="dialog" class="secondaryColour modal-body" aria-labelledby="simpleColoursTitle" aria-describedby="simpleColoursDetail">
 
-    <!--type="text/javascript"
+        <a href="#" type="button" class="back" data-a11y-dialog-hide aria-label="Back" tabindex="-1">< back</a>
+
+        <img src="image/autismSpectrum/simpleColours.svg" alt="Simplified colour palette">
+        <h2 id=simpleColoursTitle ><strong>Do use simple colours</strong></h2>
+        <p id=simpleColoursDetail>People on the autistic spectrum may experience over-sensitivity to colours. It's advisable to usemuted colours with lower saturation and hues derived from nature e.g. off-whites, mauves, olive greens, blue-greys and burnt oranges.</p>
+
+        <a href="#" type="button" class="close" data-a11y-dialog-hide aria-label="Close">Close</a>
+
+      </div>
+  </div>
+
+  <!-- MODALS end------------------------------------------------->
+
+    <script type="text/javascript" src="js/modal.js"></script>
 
     <script>
-        $("#modal").click( function() {
-            if (!$("#modal>div").is(":hover")) document.location.href='#';
+    (function () {
+      document.addEventListener('DOMContentLoaded', function () {
+        var dialogEl = document.getElementById('simpleColoursModal');
+        var mainEl = document.getElementById('main');
+        var dialog = new window.A11yDialog(dialogEl, mainEl);
+        dialog.on('show', function (dialogEl, triggerEl) {
+          console.log(dialogEl);
+          console.log(triggerEl);
         });
-    </script>-->
+        // To manually control the dialog:
+        // dialog.show()
+        // dialog.hide()
+        // dialog.destroy()
+      });
+    }());
+    </script>
 
   </body>
 </html>
